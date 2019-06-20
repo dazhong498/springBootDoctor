@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://spark123.cbqsgrefosyg.us-east-2.rds.amazonaws.com:5432/testdb
+    username: dazhong
+    password: St620338.498
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_schema: doctor
+        dialet: org.hibernate.dialect.PostgreSQL9Dialect
+        temp:
+          use_jdbc_metadata_defaults: false
